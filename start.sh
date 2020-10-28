@@ -2,4 +2,4 @@
 bundle check || bundle install
 
 # Roda nosso servidor
-rackup config.ru -o 0.0.0.0
+bundle exec rackup config.ru -o 0.0.0.0
