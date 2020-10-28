@@ -32,7 +32,8 @@ class App < Sinatra::Base
               'text': response,
               'parse_mode': 'Markdown'
             }
-          }
+          },
+          'platform': 'TELEGRAM'
         },
         {
           'text': {
